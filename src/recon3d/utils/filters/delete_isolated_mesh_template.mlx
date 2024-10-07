@@ -1,0 +1,7 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Remove Isolated pieces (wrt Face Num.)">
+  <Param tooltip="Delete all the connected components (floating pieces) composed by a number of triangles smaller than the specified one" value="1000" description="Enter minimum conn. comp size:" type="RichInt" name="MinComponentSize"/>
+  <Param tooltip="if true, the unreferenced vertices remaining after the face deletion are removed." value="true" description="Remove unfreferenced vertices" type="RichBool" name="removeUnref"/>
+ </filter>
+</FilterScript>

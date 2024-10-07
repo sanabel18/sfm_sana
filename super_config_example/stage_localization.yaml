@@ -1,0 +1,76 @@
+stage_dir: '/volume/cpl-dev/sfm/pipeline/localizations/SML_SSW_stage_auto'
+# === Definition of a node of a stage tree ===
+stage_tree:
+    /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_02_07:
+        parent_to_own_slice: [null, null]
+        child_node: 
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_07_02:
+                parent_to_own_slice: ['002', '001']  # 43s vs. 22s
+                child_node: null
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_01_03:
+                parent_to_own_slice: ['000', '003']  # 7s vs. 61s
+                child_node:
+                    - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_03_01:
+                        parent_to_own_slice: ['003', '003']  # 59s vs. 55s
+                        child_node: null
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_04_06:
+                parent_to_own_slice: ['001', '000']  # 32s vs. 5s
+                child_node:
+                    - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_06_04:
+                        parent_to_own_slice: ['001', '001']  # 19s vs. 25s
+                        child_node: null
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_04_08:
+                parent_to_own_slice: ['001', '000']  # 32s vs. 6s
+                child_node:
+                    - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_08_04:
+                        parent_to_own_slice: ['001', '001']  # 23s vs. 27s
+                        child_node: null
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_05_09:
+                parent_to_own_slice: ['002', '001']  # 49s vs 28s
+                child_node:
+                    - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_09_05:
+                        parent_to_own_slice: ['001', '001']  # 28s vs. 23s
+                        child_node: null
+            - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_18_19:
+                parent_to_own_slice: ['002', '002']  # 44s vs. 44s
+                child_node:
+                    - /volume/cpl-dev/sfm/pipeline/superprj/SML_SSW_19_18:
+                        parent_to_own_slice: ['002', '006']  # 44s. vs. 101s
+                        child_node: null
+                
+loc_prj_template:
+    project:
+        type: LocProj
+        project_dir: 'Filled by script'
+        force_new_project_dir: false
+        force_copy_data_dir_main: false
+        n_thread: 20
+        process_prio: 2
+        n_lense_for_rot: 0
+        pipeline:
+        - SfM_MATCH_SUB2MAIN
+        - CALCULATE_TRANSFORMATION_SUB2MAIN
+        - APPLY_TRANSFORMATION_EXPORT_SUBS
+        - CONCAT_CONVERT_TO_GEOJSON
+    transform:
+        prj_dir_main: 'Filled by script' # /volume/cpl-dev/sfm/pipeline/superprj/SML_TC_05_07_23/loc
+        data_dir_name_main: 'Filled by script' # /data_SML_TC_05_07_23_000
+        prj_dir_sub: 'Filled by script' # //volume/cpl-dev/sfm/pipeline/superprj/SML_TC_06_04/loc
+        data_dir_name_sub: 'Filled by script' # /data_SML_TC_06_04_000
+        threshold: 1
+        intrinsics_sub: separate
+        type_main_prj: LocProj
+        type_sub_prj: LocProj
+    apply:
+        overwrite_subs: false
+    geojson:
+        gps:
+        - 23.851539056845336
+        - 120.90219508292503
+        - 788
+        world_clock_time: 1605641652413
+        rotation_deg: 0
+        scale: 1
+        offset:
+        - 0
+        - 0

@@ -1,0 +1,7 @@
+file:
+  - path: 'reconstructed_GPS.geojson'
+    labels:
+      - '@gpstrack'
+  - path: 'geo_data.geojson_gpstrack.geojson'
+    unLabels:
+      - '@gpstrack'

@@ -1,0 +1,77 @@
+name: sfm-pipetest_67
+inputSelector:
+  repoNameRegex: /hhtest_lilly_8_9_node/20211005_153715_264041008
+  commitSelectors:
+    - clonePathEnv: TOWER_REPO
+      tags:
+        - node-marker
+      fileLabels:
+        - label: '@stitched-video'
+          pathsEnv: STITCHED_VIDEO
+        - label: '@gpstrack'
+          pathsEnv: GPS_TRACK
+        - label: '@marker'
+          pathsEnv: MARKER
+outputSelector:
+  tags:
+    - sfm-gps
+  labelConfigFileEnv: LABEL_CONFIG_FILE_ENV
+action:
+  k8s:
+    manifest: |
+      apiVersion: batch/v1
+      kind: Job
+      metadata:
+        name: sfm-test-8-9
+      spec:
+        backoffLimit: 1
+        template:
+          spec:
+            containers:
+              - name: hh-test
+                image: registry.corp.ailabs.tw/smart-city/cpl-platform/research/sfm-lab:63-need-folders-for-tower-repo-in-dockerfile
+                imagePullPolicy: Always
+                command:
+                  - sh
+                  - '-c'
+                  - >-
+                    cd ~/src/recon3d && python auto_pipe_super_project.py -d ${TOWER_REPO} -v ${STITCHED_VIDEO} -g ${GPS_TRACK} -m ${MARKER} -n ${MY_NODE_NAME} -p ${MY_POD_NAME} -l ${LABEL_CONFIG_FILE_ENV}
+                volumeMounts:
+                  - name: smart-city-nas12
+                    mountPath: /volume/smart-city-nas12
+                resources:
+                  limits:
+                    cpu: '10'
+                    memory: 150Gi
+                env:
+                  - name: MY_NODE_NAME
+                    valueFrom:
+                      fieldRef:
+                        fieldPath: spec.nodeName
+                  - name: MY_POD_NAME
+                    valueFrom:
+                      fieldRef:
+                        fieldPath: metadata.name
+                  - name: MY_POD_NAMESPACE
+                    valueFrom:
+                      fieldRef:
+                        fieldPath: metadata.namespace
+                  - name: MY_POD_IP
+                    valueFrom:
+                      fieldRef:
+                        fieldPath: status.podIP
+                  - name: MY_POD_SERVICE_ACCOUNT
+                    valueFrom:
+                      fieldRef:
+                        fieldPath: spec.serviceAccountName
+            volumes:
+              - name: smart-city-nas12
+                persistentVolumeClaim:
+                  claimName: smart-city-nas12
+            imagePullSecrets:
+              - name: sfm-lab-registry-read
+            restartPolicy: Never
+            dnsConfig:
+              options:
+                - name: ndots
+                  value: '1'

@@ -1,0 +1,10 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transform: Rotate to Fit to a plane">
+  <Param enum_val2="ZX plane" tooltip="Choose the plane where the selection will fit" enum_cardinality="3" name="targetPlane" value="2" enum_val0="XY plane" description="Rotate to fit:" type="RichEnum" enum_val1="YZ plane"/>
+  <Param enum_val2="Y axis" tooltip="Choose on which axis do the rotation: 'any axis' guarantee the best fit of the selection to the plane, only use X,Y or Z it if you want to preserve that specific axis." enum_cardinality="4" name="rotAxis" value="0" enum_val0="any axis" description="Rotate on:" type="RichEnum" enum_val3="Z axis" enum_val1="X axis"/>
+  <Param tooltip="Also apply a translation, such that the centroid of selection rests on the Origin" name="ToOrigin" value="false" description="Move to Origin" type="RichBool"/>
+  <Param tooltip="The transformation is explicitly applied, and the vertex coordinates are actually changed" name="Freeze" value="false" description="Freeze Matrix" type="RichBool"/>
+  <Param tooltip="If selected the filter will be applied to all visible mesh layers" name="allLayers" value="false" description="Apply to all visible Layers" type="RichBool"/>
+ </filter>
+</FilterScript>

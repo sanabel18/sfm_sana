@@ -1,0 +1,173 @@
+meta: SCENE_V0
+
+parent_dir: 'FILLED BY SUPER PROJECT (super_config_source)'
+name: 'FILLED BY SUPER PROJECT (super_config_source)'
+
+preproc_config_template:
+    project:
+        type: 'PreprocProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        pipeline: 
+        - 'PreprocessLocTask'
+        - 'PreprocessReconTask'
+        - 'SlicingTask'
+        - 'InitReconLocTask'
+
+    preprocess_loc_config:
+        src_mode: 'frameid_camid'
+        src_type: 'gopro_equirect'
+        src_config:
+            # camera_model: NOT_USED
+            # focal_length: NOT_USED
+            src_dir: 'FILLED BY SUPER PROJECT (super_config_source)'
+            ss: 'FILLED BY SUPER PROJECT (super_config_source)'
+            to: 'FILLED BY SUPER PROJECT (super_config_source)'
+            fps: 10
+        stage_list:
+        -   stage_type: 'DownsizeStage'
+            stage_config:
+                power_factor: 1
+    
+    preprocess_recon_config:
+        src_mode: 'frameid_camid'
+        src_type: 'gopro_equirect'
+        src_config:
+            # camera_model: NOT_USED
+            # focal_length: NOT_USED
+            src_dir: 'FILLED BY SUPER PROJECT (super_config_source)'
+            ss: 'FILLED BY SUPER PROJECT (super_config_source)'
+            to: 'FILLED BY SUPER PROJECT (super_config_source)'
+            fps: 2
+        stage_list:
+        -   stage_type: 'DownsizeStage'
+            stage_config:
+                power_factor: 1
+
+    slicing_config:
+        slice_length: 30 # number of frames in each slice
+        overlap_length_list: [[1, 10]] 
+        #overlapped region: [interval of sampling , number of frames to be included in overlapped region] 
+        #ex: [[1,3],[2,3],[5,1]]
+        # sample every frame for total 3 frames
+        # sample every two frames for total 3 frames
+        # sample every five frames for total 1 frames
+        #x: frames that we dont pick
+        #o: frames that we picked as frames in overlapped region 
+        #finally we have something like:  oooxoxoxoxxxxo 
+
+
+recon_config_template:
+    is_scene: true
+    project:
+        type: 'ReconProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        name: 'FILLED BY SUPER PROJECT'
+        n_thread: 20
+        process_prio: 2
+        n_lense_for_rot: 0
+        pipeline:
+        - 'SfM_INITIALIZE'
+        - 'SfM_COMPUTE_FEATURES'
+        - 'GENERATE_PAIR_LIST'
+        - 'SfM_COMPUTE_MATCHES'
+        - 'SfM_INCREMENTALLY_RECONSTRUCT'
+        - 'SfM_FILTER_RESULTS'
+        - 'SfM_EXPORT_RESULTS'
+        - 'SfM_EXPAND_FPS'
+        - 'GENERATE_STEPSIZE_ANCHOR'
+        - 'ZERO_INITIAL_POSE'
+        - 'EXPORT_MODEL_TO_APP'
+        - 'FILL_ROUTE'
+
+    images:
+        img_prj_dir: 'FILLED BY PREPROC'
+
+    sfm:
+        recon_alg: 'incremental'
+        camera_model: 'FILLED BY PREPROC'
+        focal_length: 'FILLED BY PREPROC'
+        loc_camera_model: 'FILLED BY PREPROC'
+        loc_focal_length: 'FILLED BY PREPROC'
+
+        pair_list:
+            generator_type: 'window'
+            generator_config:
+                window: 5
+
+        feature_matching:
+            describer: 'AKAZE_FLOAT'
+            describer_preset: 'HIGH'
+            geometric_model: 'f'  
+            nnd_ratio: 0.8
+            match_alg: 'FASTCASCADEHASHINGL2'
+
+        reconstruction:
+            calc_intrinsics: 'ADJUST_ALL'
+            init_img: ['', '']
+
+        filter:
+            filter_type: 'cov'
+            filter_config:
+                contamination: 0.05
+
+        expand_fps:
+            threshold: 5
+            intrinsics_sub: share
+
+    mvs:
+        resol_limit: [640, 3200]
+
+        densify_pcl:
+            resol_lv: 1
+            fuse_mode: 0
+            number_views: 0
+
+        reconstruct_mesh:
+            min_point_distance: 0.0
+            free_space_support: 1
+            decimate: 0.25
+            
+        # refine_texture:
+        #     scales: 2
+        #     resol_lv: 0
+        #     decimate: 0.5
+
+    # simplify:
+    #     n_clusters: 50
+    #     normal_test_thr: 0.966
+    #     bounding_box_buffer: 0.05
+    #     seg_size_thr: [20, 60, 1420]
+
+    # correct_lv:
+    #     normal_test_thr: 0.9
+    #     sigma_fac: 2.0
+    #     correctness_thr: 1
+
+    gen_footprints:
+        r_floor_cut: 0.5
+
+
+loc_config_template:
+    project:
+        type: 'LocProj'
+        name: 'FILLED BY SUPER PROJECT'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        force_new_project_dir: false
+        n_thread: 20
+        process_prio: 2
+        n_lense_for_rot: 0 # The lense number (0-based) whose rotation should be used as "merged rotation"
+        pipeline:
+            - 'SfM_MATCH_SUB2MAIN'
+            - 'CALCULATE_TRANSFORMATION_SUB2MAIN'
+            - 'APPLY_TRANSFORMATION_EXPORT_SUBS'
+    transform:
+        prj_dir_main: # 'recon project parent dir + name' for slice 001, 'loc project parent dir + name' for slice 002 onward
+        data_dir_name_main: 'data_OUR_OWN_NAME_SLICE_NUMBER'
+        prj_dir_sub: # 'recon project parent dir + name' for all slices
+        data_dir_name_sub: 'data_OUR_OWN_NAME_SLICE_NUMBER'
+        threshold: 5
+        intrinsics_sub: 'share'
+        opt_with_footprints: false
+        opt_with_stepsize_anchor: true
+    apply:
+        overwrite_subs:

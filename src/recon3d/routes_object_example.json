@@ -1,0 +1,7 @@
+{
+    "is_scene": false,
+    "last_overwritten": "timestamp when the latest overwriting happened",
+    "dir": "directory",
+    "position": [0,0,0],
+    "rotation": [[1,0,0],[0,1,0],[0,0,1]]
+}

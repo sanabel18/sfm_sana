@@ -1,0 +1,8 @@
+meta: OBJECT_IMAGE_V0
+
+parent_dir: /volume/cpl-dev/sfm/hsien/test_super_prj
+name: lattern
+
+tower_src_dir: /volume/cpl-dev/sfm/pipeline/images/ex_lantern
+img_dir: img
+focal_length: 1013.33

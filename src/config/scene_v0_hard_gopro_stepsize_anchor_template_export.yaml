@@ -1,0 +1,25 @@
+parent_dir: 'FILLED BY EXPORT PROJECT (exp_config_source)'
+name: 'FILLED BY EXPORT PROJECT (exp_config_source)'
+tower_src_dir: 'FILLED BY SUPER PROJECT (exp_config_source)'
+
+export_config_template:
+    project:
+        type: 'ExportProj'
+        name: 'FILLED BY EXPORT PROJECT'
+        project_dir: 'FILLED BY EXPORT PROJECT'
+        force_new_project_dir: false
+        n_thread: 20
+        process_prio: 2
+        n_lense_for_rot: 0 # The lense number (0-based) whose rotation should be used as "merged rotation"
+        pipeline:
+            - 'CONCAT_CONVERT_TO_GEOJSON_GPS_ANCHORED'
+    geojson:
+        remake_routes: true
+        anchor_pts_num: 'FILLED BY EXPORT PROJECT (exp_config_source)'
+        anchor_gps: 'FILLED BY EXPORT PROJECT (exp_config_source)'
+        gps_combined: false
+        smoothen_match: false
+        smooth_type: anchor
+        match_footprint: true
+        anchor_pts_num: 1000
+        opt_with_stepsize_anchor: true

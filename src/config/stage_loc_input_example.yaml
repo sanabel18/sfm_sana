@@ -1,0 +1,47 @@
+stage_dir: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/stage_ws/stage_loc/ida_test/auto_test7'
+tower_stage_dir: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/idafew' 
+tree:
+    src_root: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/stage_ws/stage_loc/ida_test/ida_src7'
+    complete_repo_path: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/ida_preprocess_status_log/complete_list.p'
+    gps_anchor_path: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/ida_cam_gps_preprocess_status_log/complete_list.p'
+    main_tag: 'tag_sfm'
+    src_mrk_tag_label: 'tag_node-marker_label_marker'
+    gps_anchor_tag_label: 'tag_cam-gps-edit_label_cam-gps'
+# === Definition of a node of a stage tree ===
+loc_prj_template:
+    project:
+        type: LocProj
+        project_dir: 'Filled by script'
+        force_new_project_dir: false  # true for the 1st time, otherwise false
+        force_copy_data_dir_main: false  # true for the 1st time, otherwise false
+        n_thread: 20
+        process_prio: 2
+        n_lense_for_rot: 0
+        pipeline:
+        - SfM_MATCH_SUB2MAIN
+        - CALCULATE_TRANSFORMATION_SUB2MAIN
+        - APPLY_TRANSFORMATION_EXPORT_SUBS
+    transform:
+        prj_dir_main: 'Filled by script' # /volume/cpl-dev/sfm/pipeline/superprj/SML_TC_05_07_23/loc
+        data_dir_name_main: 'Filled by script' # /data_SML_TC_05_07_23_000
+        prj_dir_sub: 'Filled by script' # //volume/cpl-dev/sfm/pipeline/superprj/SML_TC_06_04/loc
+        data_dir_name_sub: 'Filled by script' # /data_SML_TC_06_04_000
+        threshold: 1
+        intrinsics_sub: separate
+        type_main_prj: LocProj
+        type_sub_prj: LocProj
+        opt_with_footprints: true
+    apply:
+        overwrite_subs: false
+    geojson:
+        remake_routes: true
+        gps:
+        - 23.8638449
+        - 120.9110188
+        - 761.8
+        world_clock_time: 1605641652413
+        offset:  # north, east in meter
+        - -25
+        - -10
+        rotation_deg: 90  # From north to east
+        scale: 2.5 # Estimated camera height ratio = 2.2 / 0.73

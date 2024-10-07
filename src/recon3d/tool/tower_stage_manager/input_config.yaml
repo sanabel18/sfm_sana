@@ -1,0 +1,22 @@
+input_data: #file numbers that should be checked at clone/download process
+        clone-test: {} # commit_tag
+        sfm-gps: #commit_tag
+                gpstrack: 1 # file-label: number file 
+                marker: 1 
+data_validation_label_to_tag: # list files that needs to be validated
+        marker: # file-label
+               - 'sfm-gps' # commit_tag
+label_to_file: # list the files that need to be labeled
+        super_src: # file-label 
+               - 'super_src.yaml' # file name
+commit_msg: 'test tower stage' 
+commit_tag: 'hhtest-tower-stage-9'
+repo_tag: 'clone-test' #commit tag for main repo
+ws_root: 'tower_stage_test2' # path where the stage should be cloned/downloaded
+status_root_path_preprocess: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/tower_stage_test2_preprocess_status_log' #path to put preprocess log 
+repo_name_src_path: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/tower_stage_test2_preprocess_status_log' #path to look for complete_list.p 
+repo_name_list_file: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/tower_stage_test2_preprocess_status_log/complete_list.p' #repo_name_list file to start preprocess 
+status_root_path_postprocess: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/tower_stage_test2_postprocess_status_log' #path to put postprocess_log
+stage_id: '61a997acdef374001306d85f' 
+
+                

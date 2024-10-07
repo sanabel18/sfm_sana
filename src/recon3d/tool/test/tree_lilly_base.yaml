@@ -1,0 +1,78 @@
+root/5_58_4:
+  child_node:
+  - root/10_11_10:
+      child_node:
+      - root/1_22021tone_0:
+          child_node: null
+          parent_to_own_slice: ['000', '006']
+      - root/28_72021tone_7:
+          child_node: null
+          parent_to_own_slice: ['000', '003']
+      - root/2_12021tone_1:
+          child_node: null
+          parent_to_own_slice: ['000', '000']
+      - root/7_282021tone_6:
+          child_node: null
+          parent_to_own_slice: ['000', '000']
+      parent_to_own_slice: ['003', '000']
+  - root/11_10_11:
+      child_node: null
+      parent_to_own_slice: ['003', '000']
+  - root/13_47_13:
+      child_node: null
+      parent_to_own_slice: ['003', '000']
+  - root/17_45_15:
+      child_node: null
+      parent_to_own_slice: ['002', '000']
+  - root/19_44_17:
+      child_node: null
+      parent_to_own_slice: ['002', '000']
+  - root/21_43_19:
+      child_node: null
+      parent_to_own_slice: ['001', '000']
+  - root/25_41_20:
+      child_node: null
+      parent_to_own_slice: ['000', '000']
+  - root/27_40_23:
+      child_node:
+      - root/202128_7tone_24:
+          child_node: null
+          parent_to_own_slice: ['000', '000']
+      - root/7_282021tone_25:
+          child_node: null
+          parent_to_own_slice: ['000', 008]
+      parent_to_own_slice: ['000', '000']
+  - root/40_27_22:
+      child_node: null
+      parent_to_own_slice: ['000', '000']
+  - root/41_25_21:
+      child_node: null
+      parent_to_own_slice: ['000', '000']
+  - root/43_21_18:
+      child_node: null
+      parent_to_own_slice: ['001', '000']
+  - root/44_19_16:
+      child_node: null
+      parent_to_own_slice: ['002', '000']
+  - root/45_17_14:
+      child_node: null
+      parent_to_own_slice: ['002', '000']
+  - root/47_13_12:
+      child_node: null
+      parent_to_own_slice: ['003', '000']
+  - root/58_5_5:
+      child_node: null
+      parent_to_own_slice: ['000', '004']
+  - root/5_62021tone_3:
+      child_node: null
+      parent_to_own_slice: ['000', '000']
+  - root/6_52021tone_2:
+      child_node: null
+      parent_to_own_slice: ['000', '004']
+  - root/8_9_8:
+      child_node: null
+      parent_to_own_slice: ['003', '000']
+  - root/9_8_9:
+      child_node: null
+      parent_to_own_slice: ['003', '000']
+  parent_to_own_slice: [null, null]

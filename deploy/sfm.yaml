@@ -1,0 +1,57 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sfm-<---HOSTNAME--->
+  namespace: user-<---USER--->
+spec:
+  template:
+    spec:
+      containers:
+        - name: sfm-<---HOSTNAME--->
+          image: registry.corp.ailabs.tw/smart-city/cpl-platform/research/sfm-lab:<---BRANCH--->
+          imagePullPolicy: Always
+          command:
+            - sleep
+            - infinity
+          volumeMounts:
+            - name: cpl-dev
+              mountPath: /volume/cpl-dev
+            - name: annotator-share-nas12
+              mountPath: /volume/annotator-share-nas12
+            - name: smart-city-nas12
+              mountPath: /volume/smart-city-nas12
+            - name: annotator-share
+              mountPath: /volume/annotator-share
+              readOnly: true
+      priorityClassName: perpetual-home
+      tolerations:
+        - key: ailabs.tw/gpu-share
+          operator: Exists
+        - key: ailabs.tw/single-root
+          operator: Exists
+        - key: ailabs.tw/engine-only
+          operator: Exists
+      nodeSelector:
+        kubernetes.io/hostname: <---HOSTNAME--->
+      imagePullSecrets:
+        - name: sfm-lab-registry-read
+      restartPolicy: OnFailure
+      dnsConfig:
+        options:
+          - name: ndots
+            value: '1'
+      volumes:
+        - name: cpl-dev
+          persistentVolumeClaim:
+            claimName: cpl-dev
+        - name: annotator-share
+          persistentVolumeClaim:
+            claimName: annotator-share
+        - name: annotator-share-nas12
+          persistentVolumeClaim:
+            claimName: annotator-share-nas12  
+        - name: smart-city-nas12
+          persistentVolumeClaim:
+            claimName: smart-city-nas12 
+  backoffLimit: 5 
+  

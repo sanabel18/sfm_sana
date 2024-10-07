@@ -1,0 +1,8 @@
+export_proj:
+    template_file: '/root/src/config/scene_v0_hard_gopro_stepsize_anchor_template_export.yaml'
+    log_path: '/volume/smart-city-nas12/sfm/hsiaohsl/tower_auto_pipe_log/export_proj'
+    proj_root: '/root/proj/sfm_proj'
+super_proj:
+    template_file: '/root/src/config/scene_v0_hard_gopro_stepsize_anchor_slice30_template.yaml'
+    log_path: '/volume/smart-city-nas12/sfm/hsiaohsl/tower_auto_pipe_log/super_proj'
+    proj_root: '/root/proj/sfm_proj'

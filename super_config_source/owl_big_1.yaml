@@ -1,0 +1,11 @@
+meta: OBJECT_VIDEO_V0
+
+parent_dir: /volume/cpl-dev/sfm/hsien/test_super_prj
+name: owl_big_1
+
+tower_src_dir: /volume/cpl-dev/sfm/hsien/test_super_prj/owl_big_1
+focal_length: 1457.14
+src_video_list: ['/volume/annotator-share/20201031日月潭/日月潭物件/大貓頭鷹_第一隻.MOV']
+ss_list: [1]
+to_list: [90]
+fps_list: [3]

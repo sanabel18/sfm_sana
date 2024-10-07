@@ -1,0 +1,8 @@
+meta: SCENE_V0
+
+parent_dir: /volume/cpl-dev/sfm/hsien/test_super_prj
+name: SML_TC_15_03
+
+tower_src_dir: /volume/cpl-dev/sfm/pipeline/videos/SML_TC_15_03
+ss: 4
+to: 68

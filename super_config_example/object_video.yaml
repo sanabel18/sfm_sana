@@ -1,0 +1,93 @@
+parent_dir: /volume/cpl-dev/sfm/hsien/test_super_prj
+name: object_video
+
+preproc_config_template:
+    project:
+        type: 'PreprocProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        pipeline: 
+        - 'PreprocessReconTask'
+        - 'InitReconLocTask'
+
+    preprocess_recon_config:
+        src_mode: 'videoid_frameid'
+        src_type: 'obj_video_list'
+        src_config:
+            camera_model: 3
+            focal_length: 1668.71
+            src_video_list: ['/volume/annotator-share/stefan/新港奉天宮/iphone_x/2020-0616/IMG_2352.MOV', '/volume/annotator-share/stefan/新港奉天宮/iphone_x/2020-0616/IMG_2353.MOV', '/volume/annotator-share/stefan/新港奉天宮/iphone_x/2020-0616/IMG_2354.MOV']
+            ss_list: [10, 10, 10]
+            to_list: [120, 20, 120]
+            fps_list: [1, 1, 1]
+        stage_list: []
+        # -   stage_type: 'DownsizeStage'
+        #     stage_config:
+        #         power_factor: 1
+
+recon_config_template:
+    is_scene: false
+    project:
+        type: 'ReconProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        name: 'FILLED BY SUPER PROJECT'
+        n_thread: 20
+        process_prio: 2
+        pipeline:
+        - 'SfM_INITIALIZE'
+        - 'SfM_COMPUTE_FEATURES'
+        - 'GENERATE_PAIR_LIST'
+        - 'SfM_COMPUTE_MATCHES'
+        - 'SfM_INCREMENTALLY_RECONSTRUCT'
+        - 'SfM_FILTER_RESULTS'
+        - 'SfM_EXPORT_RESULTS'
+        - 'MVS_DENSIFY_POINT_CLOUD'
+        - 'MVS_RECONSTRUCT_MESH'
+        - 'MVS_REFINE_MESH'
+        - 'MVS_TEXTURE_MESH'
+
+    images:
+        img_prj_dir: 'FILLED BY PREPROC'
+
+    sfm:
+        recon_alg: 'incremental'
+        camera_model: 'FILLED BY PREPROC'
+        focal_length: 'FILLED BY PREPROC'
+
+        pair_list:
+            generator_type: 'backbone_detail'
+            generator_config:
+                backbone_frame_gap: 10
+
+        feature_matching:
+            describer: 'AKAZE_FLOAT'
+            describer_preset: 'HIGH'
+            geometric_model: 'f'  
+            nnd_ratio: 0.8
+            match_alg: 'HNSWL2'
+
+        reconstruction:
+            calc_intrinsics: 'ADJUST_ALL'
+            init_img: ['', '']
+
+        filter:
+            filter_type: 'cov'
+            filter_config:
+                contamination: 0.2
+
+    mvs:
+        resol_limit: [640, 3200]
+
+        densify_pcl:
+            resol_lv: 1
+            fuse_mode: 0
+            number_views: 0
+
+        reconstruct_mesh:
+            min_point_distance: 0.0
+            free_space_support: 1
+            decimate: 1
+
+        refine_texture:
+            scales: 2
+            resol_lv: 0
+            decimate: 0.5

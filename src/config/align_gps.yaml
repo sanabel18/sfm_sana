@@ -1,0 +1,6 @@
+stage_dir: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/stage_ws/stage_loc/ida_test/auto_test7/tree_0'
+tower_stage_dir: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/pkg/mr/AID-558/sfm-lab/src/recon3d/tool/tower_stage_manager/idafew' 
+src_mrk_tag_label: 'tag_node-marker_label_marker'
+main_tag: 'tag_sfm'
+main_node_file: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/stage_ws/stage_loc/ida_test/auto_test7/tree_0/main_node.p'
+complete_node_list: '/volume/smart-city-nas12/sfm/hsiaohsl/workspace/stage_ws/stage_loc/ida_test/auto_test7/tree_0/complete_node_list.p'

@@ -1,0 +1,2278 @@
+{
+    "sfm_data_version": "0.3",
+    "root_path": "/volume/smart-city-nas12/sfm/hsiaohsl/workspace/sfm_test/sfm_proj/mt_dir_ss_nomesh_regular_test3/mt_dir/recon/002/data_mt_dir_002/img_prj/img",
+    "views": [
+        {
+            "key": 0,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483649,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00050_2892960330305512576.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 0,
+                        "id_intrinsic": 0,
+                        "id_pose": 0
+                    }
+                }
+            }
+        },
+        {
+            "key": 1,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483650,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00051_2179652489666633089.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 1,
+                        "id_intrinsic": 0,
+                        "id_pose": 1
+                    }
+                }
+            }
+        },
+        {
+            "key": 2,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483651,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00052_2323356406240525185.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 2,
+                        "id_intrinsic": 0,
+                        "id_pose": 2
+                    }
+                }
+            }
+        },
+        {
+            "key": 3,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483652,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00053_1084485129012691246.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 3,
+                        "id_intrinsic": 0,
+                        "id_pose": 3
+                    }
+                }
+            }
+        },
+        {
+            "key": 4,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483653,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00054_5393302939863339259.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 4,
+                        "id_intrinsic": 0,
+                        "id_pose": 4
+                    }
+                }
+            }
+        },
+        {
+            "key": 5,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483654,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00055_435991787995092323.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 5,
+                        "id_intrinsic": 0,
+                        "id_pose": 5
+                    }
+                }
+            }
+        },
+        {
+            "key": 6,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483655,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00056_1588366544662042611.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 6,
+                        "id_intrinsic": 0,
+                        "id_pose": 6
+                    }
+                }
+            }
+        },
+        {
+            "key": 7,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483656,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00057_866490512221693363.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 7,
+                        "id_intrinsic": 0,
+                        "id_pose": 7
+                    }
+                }
+            }
+        },
+        {
+            "key": 8,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483657,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00058_8385143600389905528.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 8,
+                        "id_intrinsic": 0,
+                        "id_pose": 8
+                    }
+                }
+            }
+        },
+        {
+            "key": 9,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483658,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00059_4532890837391152283.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 9,
+                        "id_intrinsic": 0,
+                        "id_pose": 9
+                    }
+                }
+            }
+        },
+        {
+            "key": 10,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483659,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00060_2893684586913083704.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 10,
+                        "id_intrinsic": 0,
+                        "id_pose": 10
+                    }
+                }
+            }
+        },
+        {
+            "key": 11,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483660,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00061_2353824976841120840.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 11,
+                        "id_intrinsic": 0,
+                        "id_pose": 11
+                    }
+                }
+            }
+        },
+        {
+            "key": 12,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483661,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00062_4078077249061890921.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 12,
+                        "id_intrinsic": 0,
+                        "id_pose": 12
+                    }
+                }
+            }
+        },
+        {
+            "key": 13,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483662,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00063_7160724229223347281.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 13,
+                        "id_intrinsic": 0,
+                        "id_pose": 13
+                    }
+                }
+            }
+        },
+        {
+            "key": 14,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483663,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00064_399389461920911318.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 14,
+                        "id_intrinsic": 0,
+                        "id_pose": 14
+                    }
+                }
+            }
+        },
+        {
+            "key": 15,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483664,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00065_6955225956584171846.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 15,
+                        "id_intrinsic": 0,
+                        "id_pose": 15
+                    }
+                }
+            }
+        },
+        {
+            "key": 16,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483665,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00066_1864796496155890656.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 16,
+                        "id_intrinsic": 0,
+                        "id_pose": 16
+                    }
+                }
+            }
+        },
+        {
+            "key": 17,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483666,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00067_640058926767334861.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 17,
+                        "id_intrinsic": 0,
+                        "id_pose": 17
+                    }
+                }
+            }
+        },
+        {
+            "key": 18,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483667,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00068_9123401705902432421.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 18,
+                        "id_intrinsic": 0,
+                        "id_pose": 18
+                    }
+                }
+            }
+        },
+        {
+            "key": 19,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483668,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00069_7963805942826227673.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 19,
+                        "id_intrinsic": 0,
+                        "id_pose": 19
+                    }
+                }
+            }
+        },
+        {
+            "key": 20,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483669,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00070_1749479286904540194.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 20,
+                        "id_intrinsic": 0,
+                        "id_pose": 20
+                    }
+                }
+            }
+        },
+        {
+            "key": 21,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483670,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00071_1107589380344119857.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 21,
+                        "id_intrinsic": 0,
+                        "id_pose": 21
+                    }
+                }
+            }
+        },
+        {
+            "key": 22,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483671,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00072_5829044775334319329.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 22,
+                        "id_intrinsic": 0,
+                        "id_pose": 22
+                    }
+                }
+            }
+        },
+        {
+            "key": 23,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483672,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00073_3401617435431231376.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 23,
+                        "id_intrinsic": 0,
+                        "id_pose": 23
+                    }
+                }
+            }
+        },
+        {
+            "key": 24,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483673,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00074_8468820076655634880.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 24,
+                        "id_intrinsic": 0,
+                        "id_pose": 24
+                    }
+                }
+            }
+        },
+        {
+            "key": 25,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483674,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00075_7406581895425916632.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 25,
+                        "id_intrinsic": 0,
+                        "id_pose": 25
+                    }
+                }
+            }
+        },
+        {
+            "key": 26,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483675,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00076_684595523067569008.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 26,
+                        "id_intrinsic": 0,
+                        "id_pose": 26
+                    }
+                }
+            }
+        },
+        {
+            "key": 27,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483676,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00077_7729404672683195266.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 27,
+                        "id_intrinsic": 0,
+                        "id_pose": 27
+                    }
+                }
+            }
+        },
+        {
+            "key": 28,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483677,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00078_8507906674271115824.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 28,
+                        "id_intrinsic": 0,
+                        "id_pose": 28
+                    }
+                }
+            }
+        },
+        {
+            "key": 29,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483678,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00079_7841196638513529193.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 29,
+                        "id_intrinsic": 0,
+                        "id_pose": 29
+                    }
+                }
+            }
+        },
+        {
+            "key": 30,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483679,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00080_2129344443957561794.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 30,
+                        "id_intrinsic": 0,
+                        "id_pose": 30
+                    }
+                }
+            }
+        },
+        {
+            "key": 31,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483680,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00081_2940330107640154521.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 31,
+                        "id_intrinsic": 0,
+                        "id_pose": 31
+                    }
+                }
+            }
+        },
+        {
+            "key": 32,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483681,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00082_7898862685470250423.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 32,
+                        "id_intrinsic": 0,
+                        "id_pose": 32
+                    }
+                }
+            }
+        },
+        {
+            "key": 33,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483682,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00083_4765448870098554371.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 33,
+                        "id_intrinsic": 0,
+                        "id_pose": 33
+                    }
+                }
+            }
+        },
+        {
+            "key": 34,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483683,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00084_3067548490439838536.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 34,
+                        "id_intrinsic": 0,
+                        "id_pose": 34
+                    }
+                }
+            }
+        },
+        {
+            "key": 35,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483684,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00085_5611437637371130232.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 35,
+                        "id_intrinsic": 0,
+                        "id_pose": 35
+                    }
+                }
+            }
+        },
+        {
+            "key": 36,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483685,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00086_3907561609435706604.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 36,
+                        "id_intrinsic": 0,
+                        "id_pose": 36
+                    }
+                }
+            }
+        },
+        {
+            "key": 37,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483686,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00087_8842319269106327739.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 37,
+                        "id_intrinsic": 0,
+                        "id_pose": 37
+                    }
+                }
+            }
+        },
+        {
+            "key": 38,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483687,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00088_9209773564752244809.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 38,
+                        "id_intrinsic": 0,
+                        "id_pose": 38
+                    }
+                }
+            }
+        },
+        {
+            "key": 39,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483688,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00089_4708126909035000942.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 39,
+                        "id_intrinsic": 0,
+                        "id_pose": 39
+                    }
+                }
+            }
+        },
+        {
+            "key": 40,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483689,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00090_6091498627505726580.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 40,
+                        "id_intrinsic": 0,
+                        "id_pose": 40
+                    }
+                }
+            }
+        },
+        {
+            "key": 41,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483690,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00091_3837456990446777900.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 41,
+                        "id_intrinsic": 0,
+                        "id_pose": 41
+                    }
+                }
+            }
+        },
+        {
+            "key": 42,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483691,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00092_824336405147201136.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 42,
+                        "id_intrinsic": 0,
+                        "id_pose": 42
+                    }
+                }
+            }
+        },
+        {
+            "key": 43,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483692,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00093_8355959438333394322.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 43,
+                        "id_intrinsic": 0,
+                        "id_pose": 43
+                    }
+                }
+            }
+        },
+        {
+            "key": 44,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483693,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00094_8500413338560883804.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 44,
+                        "id_intrinsic": 0,
+                        "id_pose": 44
+                    }
+                }
+            }
+        },
+        {
+            "key": 45,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483694,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00095_2876620601351909963.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 45,
+                        "id_intrinsic": 0,
+                        "id_pose": 45
+                    }
+                }
+            }
+        },
+        {
+            "key": 46,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483695,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00096_4317273199045363189.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 46,
+                        "id_intrinsic": 0,
+                        "id_pose": 46
+                    }
+                }
+            }
+        },
+        {
+            "key": 47,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483696,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00097_4157007235319930070.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 47,
+                        "id_intrinsic": 0,
+                        "id_pose": 47
+                    }
+                }
+            }
+        },
+        {
+            "key": 48,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483697,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00098_9070062680315578136.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 48,
+                        "id_intrinsic": 0,
+                        "id_pose": 48
+                    }
+                }
+            }
+        },
+        {
+            "key": 49,
+            "value": {
+                "polymorphic_id": 1073741824,
+                "ptr_wrapper": {
+                    "id": 2147483698,
+                    "data": {
+                        "local_path": "",
+                        "filename": "00099_8602401478397183081.jpg",
+                        "width": 2688,
+                        "height": 1344,
+                        "id_view": 49,
+                        "id_intrinsic": 0,
+                        "id_pose": 49
+                    }
+                }
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "key": 0,
+            "value": {
+                "polymorphic_id": 2147483649,
+                "polymorphic_name": "spherical",
+                "ptr_wrapper": {
+                    "id": 2147483699,
+                    "data": {
+                        "value0": {
+                            "width": 2688,
+                            "height": 1344
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "extrinsics": [
+        {
+            "key": 0,
+            "value": {
+                "rotation": [
+                    [
+                        0.9960135826640157,
+                        -0.05891466917241989,
+                        0.06697764481598415
+                    ],
+                    [
+                        0.049920951884860929,
+                        0.9904111791951813,
+                        0.12881612743798827
+                    ],
+                    [
+                        -0.07392456771399619,
+                        -0.12495902481019508,
+                        0.9894040632657539
+                    ]
+                ],
+                "center": [
+                    0.05582388286126407,
+                    -0.4619769757377788,
+                    0.962516716755055
+                ]
+            }
+        },
+        {
+            "key": 1,
+            "value": {
+                "rotation": [
+                    [
+                        0.9960351000697325,
+                        -0.058726269746791789,
+                        0.06682293521467693
+                    ],
+                    [
+                        0.049728045333085609,
+                        0.9903772100902654,
+                        0.129151474018584
+                    ],
+                    [
+                        -0.07376449644936543,
+                        -0.1253164273966085,
+                        0.9893708061632515
+                    ]
+                ],
+                "center": [
+                    0.052689207581749299,
+                    -0.45790934819362708,
+                    0.9313001452036813
+                ]
+            }
+        },
+        {
+            "key": 2,
+            "value": {
+                "rotation": [
+                    [
+                        0.9960701571963994,
+                        -0.058465047001005177,
+                        0.0665287924278698
+                    ],
+                    [
+                        0.049519161474462367,
+                        0.990411908805678,
+                        0.1289655129976985
+                    ],
+                    [
+                        -0.07343088307794242,
+                        -0.12516424878959518,
+                        0.9894148857963124
+                    ]
+                ],
+                "center": [
+                    0.049785412116227899,
+                    -0.4539186343213227,
+                    0.9003074842540851
+                ]
+            }
+        },
+        {
+            "key": 3,
+            "value": {
+                "rotation": [
+                    [
+                        0.9960732529886315,
+                        -0.05878373888847149,
+                        0.06620080605957782
+                    ],
+                    [
+                        0.049852386911893229,
+                        0.9903512691314335,
+                        0.12930237139722465
+                    ],
+                    [
+                        -0.07316292913650141,
+                        -0.12549436549921645,
+                        0.9893929199403624
+                    ]
+                ],
+                "center": [
+                    0.04765869574996848,
+                    -0.44993570870415419,
+                    0.869072637167718
+                ]
+            }
+        },
+        {
+            "key": 4,
+            "value": {
+                "rotation": [
+                    [
+                        0.9961135098132555,
+                        -0.05878424706898379,
+                        0.06559182772304664
+                    ],
+                    [
+                        0.0499554044465328,
+                        0.9903917901518426,
+                        0.12895177224998437
+                    ],
+                    [
+                        -0.07254194051788586,
+                        -0.1251739361702794,
+                        0.9894792330158012
+                    ]
+                ],
+                "center": [
+                    0.045821356611831957,
+                    -0.44590287569852868,
+                    0.8377616111449627
+                ]
+            }
+        },
+        {
+            "key": 5,
+            "value": {
+                "rotation": [
+                    [
+                        0.9961477480217653,
+                        -0.05883291300181462,
+                        0.06502578303170634
+                    ],
+                    [
+                        0.0500639191422652,
+                        0.9903664856633113,
+                        0.1291039429104275
+                    ],
+                    [
+                        -0.07199491726005641,
+                        -0.1253511564470911,
+                        0.9894967506091642
+                    ]
+                ],
+                "center": [
+                    0.04397974414535641,
+                    -0.4420214145238305,
+                    0.8067720485315213
+                ]
+            }
+        },
+        {
+            "key": 6,
+            "value": {
+                "rotation": [
+                    [
+                        0.9961845193830734,
+                        -0.05934028531327674,
+                        0.06399323308330346
+                    ],
+                    [
+                        0.050678952544980709,
+                        0.9902998992272561,
+                        0.12937446950395554
+                    ],
+                    [
+                        -0.07104961020624029,
+                        -0.12563773370060939,
+                        0.9895287326602074
+                    ]
+                ],
+                "center": [
+                    0.04249009046439433,
+                    -0.43796149178471657,
+                    0.7752295605299893
+                ]
+            }
+        },
+        {
+            "key": 7,
+            "value": {
+                "rotation": [
+                    [
+                        0.9962358567557053,
+                        -0.058848015148398467,
+                        0.06364769302433277
+                    ],
+                    [
+                        0.050230259241773298,
+                        0.9903173435649819,
+                        0.12941591900111036
+                    ],
+                    [
+                        -0.0706472842417179,
+                        -0.1257317388231451,
+                        0.9895455982832617
+                    ]
+                ],
+                "center": [
+                    0.04134507946189322,
+                    -0.43392483193858785,
+                    0.7436642907599957
+                ]
+            }
+        },
+        {
+            "key": 8,
+            "value": {
+                "rotation": [
+                    [
+                        0.9962748463394691,
+                        -0.0585773654477895,
+                        0.06328603960166436
+                    ],
+                    [
+                        0.050035718847439448,
+                        0.9903801525313742,
+                        0.1290100008191302
+                    ],
+                    [
+                        -0.07023430351820474,
+                        -0.1253628562578569,
+                        0.9896217948692241
+                    ]
+                ],
+                "center": [
+                    0.04040413945315247,
+                    -0.43009058951733206,
+                    0.7121509264245495
+                ]
+            }
+        },
+        {
+            "key": 9,
+            "value": {
+                "rotation": [
+                    [
+                        0.9962904841135359,
+                        -0.05890066605559879,
+                        0.0627374115103823
+                    ],
+                    [
+                        0.05037827248186725,
+                        0.9902739913044313,
+                        0.12968982923781634
+                    ],
+                    [
+                        -0.06976604422323911,
+                        -0.12604814034406876,
+                        0.9895678680056477
+                    ]
+                ],
+                "center": [
+                    0.0399315239019541,
+                    -0.42598796506557359,
+                    0.6802325308896378
+                ]
+            }
+        },
+        {
+            "key": 10,
+            "value": {
+                "rotation": [
+                    [
+                        0.9963637003954304,
+                        -0.058032735180623438,
+                        0.062382515032503808
+                    ],
+                    [
+                        0.04952579144568233,
+                        0.9902518979167988,
+                        0.13018592340901018
+                    ],
+                    [
+                        -0.06932944912520012,
+                        -0.12662298495784056,
+                        0.9895251624715578
+                    ]
+                ],
+                "center": [
+                    0.039570187773308087,
+                    -0.42178669247502539,
+                    0.6484043767125355
+                ]
+            }
+        },
+        {
+            "key": 11,
+            "value": {
+                "rotation": [
+                    [
+                        0.9963583944796979,
+                        -0.05837337940949609,
+                        0.06214900100688464
+                    ],
+                    [
+                        0.04985782246201762,
+                        0.9901669675450294,
+                        0.13070414653723354
+                    ],
+                    [
+                        -0.06916753059915223,
+                        -0.12712955973728419,
+                        0.9894715396371033
+                    ]
+                ],
+                "center": [
+                    0.039836073353407188,
+                    -0.41789880618779548,
+                    0.6165561978701544
+                ]
+            }
+        },
+        {
+            "key": 12,
+            "value": {
+                "rotation": [
+                    [
+                        0.9963597144104445,
+                        -0.05896358733441501,
+                        0.06156796950195972
+                    ],
+                    [
+                        0.05050580143257493,
+                        0.9901098901471678,
+                        0.13088762147130868
+                    ],
+                    [
+                        -0.0686766592197869,
+                        -0.12730161350674266,
+                        0.9894836106156529
+                    ]
+                ],
+                "center": [
+                    0.04017245410771148,
+                    -0.4140827712736179,
+                    0.584749158087859
+                ]
+            }
+        },
+        {
+            "key": 13,
+            "value": {
+                "rotation": [
+                    [
+                        0.9964447190538947,
+                        -0.05828983742954597,
+                        0.06082940672110821
+                    ],
+                    [
+                        0.049973667534253637,
+                        0.9902194492607659,
+                        0.13026156324442565
+                    ],
+                    [
+                        -0.06782738696707097,
+                        -0.1267585782428263,
+                        0.989611897876676
+                    ]
+                ],
+                "center": [
+                    0.040972242033031399,
+                    -0.4103165681419477,
+                    0.5535459069051583
+                ]
+            }
+        },
+        {
+            "key": 14,
+            "value": {
+                "rotation": [
+                    [
+                        0.9964881062818585,
+                        -0.05793031994169679,
+                        0.06046099627237553
+                    ],
+                    [
+                        0.049706166389529297,
+                        0.9903155035912145,
+                        0.1296321733588375
+                    ],
+                    [
+                        -0.06738509524851909,
+                        -0.12617163460275816,
+                        0.9897171149171949
+                    ]
+                ],
+                "center": [
+                    0.04165945948585961,
+                    -0.40620682539590666,
+                    0.5221201448975036
+                ]
+            }
+        },
+        {
+            "key": 15,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965206289530263,
+                        -0.057943658483211857,
+                        0.05990966960888551
+                    ],
+                    [
+                        0.04981612339841996,
+                        0.9903619452979239,
+                        0.12923455867245957
+                    ],
+                    [
+                        -0.0668205800679574,
+                        -0.12580043619675133,
+                        0.9898026370605852
+                    ]
+                ],
+                "center": [
+                    0.04239002824936746,
+                    -0.4026767171626626,
+                    0.49294000736254436
+                ]
+            }
+        },
+        {
+            "key": 16,
+            "value": {
+                "rotation": [
+                    [
+                        0.996529013162531,
+                        -0.057912253159740387,
+                        0.059800475410103279
+                    ],
+                    [
+                        0.04981188472638181,
+                        0.9903876599045176,
+                        0.1290389834463186
+                    ],
+                    [
+                        -0.06669859117940856,
+                        -0.12561231644554517,
+                        0.9898347558516353
+                    ]
+                ],
+                "center": [
+                    0.04275677601621218,
+                    -0.39887606791063787,
+                    0.46160566496358276
+                ]
+            }
+        },
+        {
+            "key": 17,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965483661977315,
+                        -0.05816399873590783,
+                        0.05923093009299711
+                    ],
+                    [
+                        0.05006897246577041,
+                        0.9902476956874878,
+                        0.13000999646889647
+                    ],
+                    [
+                        -0.06621519330828932,
+                        -0.12659561776250337,
+                        0.9897419349196416
+                    ]
+                ],
+                "center": [
+                    0.043322523476799889,
+                    -0.3948494610554521,
+                    0.4302795859898026
+                ]
+            }
+        },
+        {
+            "key": 18,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965852474198113,
+                        -0.057877828004204368,
+                        0.05888974147259765
+                    ],
+                    [
+                        0.04981772741721571,
+                        0.9902401128379379,
+                        0.1301641769523855
+                    ],
+                    [
+                        -0.0658486040867811,
+                        -0.126785945404937,
+                        0.989742029716632
+                    ]
+                ],
+                "center": [
+                    0.04395227656492516,
+                    -0.390822165348806,
+                    0.3988022107171985
+                ]
+            }
+        },
+        {
+            "key": 19,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966171567017608,
+                        -0.057822937621162227,
+                        0.05840163398876172
+                    ],
+                    [
+                        0.04983087341225017,
+                        0.9902505012444225,
+                        0.13008008625513146
+                    ],
+                    [
+                        -0.06535386004415045,
+                        -0.12672984127674634,
+                        0.9897820064576343
+                    ]
+                ],
+                "center": [
+                    0.044423645531529217,
+                    -0.38701230400457928,
+                    0.36734059873848598
+                ]
+            }
+        },
+        {
+            "key": 20,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966052621571453,
+                        -0.05842516421405271,
+                        0.05800389320768704
+                    ],
+                    [
+                        0.05048141597941444,
+                        0.9902206971143733,
+                        0.13005613267753966
+                    ],
+                    [
+                        -0.0650352064761934,
+                        -0.1266865075408011,
+                        0.9898085424594564
+                    ]
+                ],
+                "center": [
+                    0.04487847320828478,
+                    -0.38287810730387097,
+                    0.3355743065776472
+                ]
+            }
+        },
+        {
+            "key": 21,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966121709616121,
+                        -0.058676455111938589,
+                        0.05763032454080923
+                    ],
+                    [
+                        0.05076807431875948,
+                        0.9901848773649082,
+                        0.1302171696352162
+                    ],
+                    [
+                        -0.06470535774684548,
+                        -0.12685023552732734,
+                        0.9898091909178831
+                    ]
+                ],
+                "center": [
+                    0.045069366935735249,
+                    -0.37865329033331576,
+                    0.30383068656184578
+                ]
+            }
+        },
+        {
+            "key": 22,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966060380465752,
+                        -0.05918485888178422,
+                        0.05721501034039609
+                    ],
+                    [
+                        0.05131776806578186,
+                        0.9901397382074348,
+                        0.13034487141141755
+                    ],
+                    [
+                        -0.06436529818042455,
+                        -0.12696633924649337,
+                        0.9898164764684863
+                    ]
+                ],
+                "center": [
+                    0.04482143710622792,
+                    -0.3742494447953454,
+                    0.2714376902258599
+                ]
+            }
+        },
+        {
+            "key": 23,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966027488152667,
+                        -0.059556773285442687,
+                        0.056885427041386108
+                    ],
+                    [
+                        0.05167395453224602,
+                        0.9900084181472549,
+                        0.13119883543907477
+                    ],
+                    [
+                        -0.06413083093843282,
+                        -0.12781362506945977,
+                        0.9897226448706474
+                    ]
+                ],
+                "center": [
+                    0.04320437634924021,
+                    -0.3696871668438812,
+                    0.23871674822123427
+                ]
+            }
+        },
+        {
+            "key": 24,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965750064176476,
+                        -0.06043707101293369,
+                        0.05644127063632858
+                    ],
+                    [
+                        0.05255279398088487,
+                        0.9898537305947205,
+                        0.13201437752198498
+                    ],
+                    [
+                        -0.06384716460790055,
+                        -0.1285960826584236,
+                        0.9896396248617168
+                    ]
+                ],
+                "center": [
+                    0.04057016012012762,
+                    -0.3652806997921638,
+                    0.20602572589129038
+                ]
+            }
+        },
+        {
+            "key": 25,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965279923707244,
+                        -0.061269745955746617,
+                        0.05637356341488088
+                    ],
+                    [
+                        0.05334620583685491,
+                        0.9897235272316822,
+                        0.13267072761875288
+                    ],
+                    [
+                        -0.0639229438025599,
+                        -0.1292027781225918,
+                        0.9895557080735874
+                    ]
+                ],
+                "center": [
+                    0.03696553747368935,
+                    -0.36081285157333289,
+                    0.17320179659934518
+                ]
+            }
+        },
+        {
+            "key": 26,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965294426455894,
+                        -0.06135182101161615,
+                        0.056258546008847738
+                    ],
+                    [
+                        0.053457623745995028,
+                        0.9897486454932292,
+                        0.13243829207502573
+                    ],
+                    [
+                        -0.0638071501001467,
+                        -0.1289712092014214,
+                        0.9895933886163653
+                    ]
+                ],
+                "center": [
+                    0.03307077126616499,
+                    -0.356068788222368,
+                    0.14007838652732347
+                ]
+            }
+        },
+        {
+            "key": 27,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965363635300097,
+                        -0.06134698967647417,
+                        0.056141099205651568
+                    ],
+                    [
+                        0.053461563307557347,
+                        0.9897349874773296,
+                        0.13253873325168886
+                    ],
+                    [
+                        -0.06369566241979337,
+                        -0.12907827633217323,
+                        0.9895866112513947
+                    ]
+                ],
+                "center": [
+                    0.028886954782745598,
+                    -0.35166753506608336,
+                    0.10718102022693561
+                ]
+            }
+        },
+        {
+            "key": 28,
+            "value": {
+                "rotation": [
+                    [
+                        0.9965691262049818,
+                        -0.06098975053840737,
+                        0.055948431830586977
+                    ],
+                    [
+                        0.05311252043071091,
+                        0.9897136307709119,
+                        0.1328382070029417
+                    ],
+                    [
+                        -0.06347469471006785,
+                        -0.12941089365088979,
+                        0.9895573675820628
+                    ]
+                ],
+                "center": [
+                    0.024773679199454444,
+                    -0.34706405920618996,
+                    0.07414524763389932
+                ]
+            }
+        },
+        {
+            "key": 29,
+            "value": {
+                "rotation": [
+                    [
+                        0.99659255640875,
+                        -0.060945008610847697,
+                        0.055578614917036108
+                    ],
+                    [
+                        0.05314913998751076,
+                        0.9897810447857017,
+                        0.13232026413785903
+                    ],
+                    [
+                        -0.06307491917759763,
+                        -0.12891543471729248,
+                        0.9896475965021039
+                    ]
+                ],
+                "center": [
+                    0.020762704937663115,
+                    -0.34248341094887926,
+                    0.04112321163929268
+                ]
+            }
+        },
+        {
+            "key": 30,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966212404322384,
+                        -0.060547773812438098,
+                        0.055498380207572677
+                    ],
+                    [
+                        0.05278893110255993,
+                        0.9898505514756765,
+                        0.131943982418102
+                    ],
+                    [
+                        -0.06292401665783613,
+                        -0.12856847525601707,
+                        0.9897023367144221
+                    ]
+                ],
+                "center": [
+                    0.016791312223537043,
+                    -0.33776476725372,
+                    0.007531729607205503
+                ]
+            }
+        },
+        {
+            "key": 31,
+            "value": {
+                "rotation": [
+                    [
+                        0.9966729445033457,
+                        -0.059878302492633417,
+                        0.055295846007015977
+                    ],
+                    [
+                        0.052177055120688497,
+                        0.9899395765454386,
+                        0.1315187808184458
+                    ],
+                    [
+                        -0.0626146677222164,
+                        -0.12819603613075737,
+                        0.9897702661256288
+                    ]
+                ],
+                "center": [
+                    0.01306723856372643,
+                    -0.3329368098445426,
+                    -0.026241660185955787
+                ]
+            }
+        },
+        {
+            "key": 32,
+            "value": {
+                "rotation": [
+                    [
+                        0.9967216726302662,
+                        -0.05927118712888222,
+                        0.05507116927628611
+                    ],
+                    [
+                        0.05162573297951935,
+                        0.9900164864150259,
+                        0.13115693012866007
+                    ],
+                    [
+                        -0.06229519245858143,
+                        -0.12788386529496158,
+                        0.9898308067512187
+                    ]
+                ],
+                "center": [
+                    0.009705088882145915,
+                    -0.32819093381967698,
+                    -0.06030296849464911
+                ]
+            }
+        },
+        {
+            "key": 33,
+            "value": {
+                "rotation": [
+                    [
+                        0.9968076208751971,
+                        -0.057836092007689129,
+                        0.05504137921970457
+                    ],
+                    [
+                        0.050250624243948219,
+                        0.9901851991241956,
+                        0.13041528360767688
+                    ],
+                    [
+                        -0.062043869384675969,
+                        -0.12723308491369446,
+                        0.9899304522920396
+                    ]
+                ],
+                "center": [
+                    0.0063812048617559748,
+                    -0.32310867247149496,
+                    -0.09481667586852097
+                ]
+            }
+        },
+        {
+            "key": 34,
+            "value": {
+                "rotation": [
+                    [
+                        0.9968904369455299,
+                        -0.05632861100923338,
+                        0.05510484831955359
+                    ],
+                    [
+                        0.04880069760584217,
+                        0.9903745187526584,
+                        0.12952530454943413
+                    ],
+                    [
+                        -0.06187041813123365,
+                        -0.12643338240832989,
+                        0.9900437622514752
+                    ]
+                ],
+                "center": [
+                    0.0033946215776971867,
+                    -0.3181754618956952,
+                    -0.12956855477049887
+                ]
+            }
+        },
+        {
+            "key": 35,
+            "value": {
+                "rotation": [
+                    [
+                        0.9969733261738693,
+                        -0.05489023554049371,
+                        0.05505677923853487
+                    ],
+                    [
+                        0.04739647678899007,
+                        0.9904818318049515,
+                        0.1292258288899647
+                    ],
+                    [
+                        -0.06162597573915052,
+                        -0.12622520709674765,
+                        0.9900855701441067
+                    ]
+                ],
+                "center": [
+                    0.0005641784682801035,
+                    -0.313176800520699,
+                    -0.16433203558045549
+                ]
+            }
+        },
+        {
+            "key": 36,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970004357210501,
+                        -0.054531606993625279,
+                        0.05492208126727279
+                    ],
+                    [
+                        0.047082698450925389,
+                        0.9905502224843006,
+                        0.12881566769179127
+                    ],
+                    [
+                        -0.061427605183788067,
+                        -0.12584339702580969,
+                        0.9901464986285561
+                    ]
+                ],
+                "center": [
+                    -0.002158460393972178,
+                    -0.30822296705406657,
+                    -0.1993545174426948
+                ]
+            }
+        },
+        {
+            "key": 37,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970248670654194,
+                        -0.05450913399807567,
+                        0.05449925471015765
+                    ],
+                    [
+                        0.047110871228274998,
+                        0.9905427716557509,
+                        0.12886265297849418
+                    ],
+                    [
+                        -0.061008034432324578,
+                        -0.1259117620848932,
+                        0.9901637480252352
+                    ]
+                ],
+                "center": [
+                    -0.0045589582561447899,
+                    -0.3030665441236956,
+                    -0.23433702225997106
+                ]
+            }
+        },
+        {
+            "key": 38,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970366876586336,
+                        -0.054739496356771239,
+                        0.05405026365622286
+                    ],
+                    [
+                        0.0474188804707375,
+                        0.9905756860988004,
+                        0.12849614735389076
+                    ],
+                    [
+                        -0.06057469139502147,
+                        -0.12555237014289268,
+                        0.9902359865778965
+                    ]
+                ],
+                "center": [
+                    -0.006819658942035343,
+                    -0.2981828826802146,
+                    -0.26894132027121417
+                ]
+            }
+        },
+        {
+            "key": 39,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970219480980693,
+                        -0.055557663175633788,
+                        0.053484400278900157
+                    ],
+                    [
+                        0.04829130956552187,
+                        0.9905085264395294,
+                        0.12868880476187187
+                    ],
+                    [
+                        -0.06012640377719031,
+                        -0.12572273109129895,
+                        0.990241692949639
+                    ]
+                ],
+                "center": [
+                    -0.009093294058595133,
+                    -0.2933528203279454,
+                    -0.303795343202422
+                ]
+            }
+        },
+        {
+            "key": 40,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970454743849838,
+                        -0.05558600431840369,
+                        0.053014320068610929
+                    ],
+                    [
+                        0.048380921542864569,
+                        0.9905088121628735,
+                        0.1286529418954603
+                    ],
+                    [
+                        -0.05966245418255856,
+                        -0.1257079518232952,
+                        0.9902716306192489
+                    ]
+                ],
+                "center": [
+                    -0.011362724124503511,
+                    -0.2885341402077042,
+                    -0.33855561784158907
+                ]
+            }
+        },
+        {
+            "key": 41,
+            "value": {
+                "rotation": [
+                    [
+                        0.997050249190776,
+                        -0.05592559669416215,
+                        0.052565466068641469
+                    ],
+                    [
+                        0.04878862550740321,
+                        0.990518608779873,
+                        0.128423345548554
+                    ],
+                    [
+                        -0.05924922454943982,
+                        -0.12547993184245385,
+                        0.9903253587054626
+                    ]
+                ],
+                "center": [
+                    -0.01352589376666565,
+                    -0.2837273661231185,
+                    -0.3730580556905696
+                ]
+            }
+        },
+        {
+            "key": 42,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970512941216039,
+                        -0.05639919532086157,
+                        0.05203698355587298
+                    ],
+                    [
+                        0.04936333376564503,
+                        0.9905722970135313,
+                        0.12778804978900705
+                    ],
+                    [
+                        -0.05875353751031863,
+                        -0.1248425214279795,
+                        0.9904354429610888
+                    ]
+                ],
+                "center": [
+                    -0.01602595410946205,
+                    -0.2787234331518921,
+                    -0.4077547639980065
+                ]
+            }
+        },
+        {
+            "key": 43,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970473744547996,
+                        -0.056770420524790119,
+                        0.05170737322886421
+                    ],
+                    [
+                        0.04972577132254192,
+                        0.99044975839976,
+                        0.1285948045304914
+                    ],
+                    [
+                        -0.05851393645251396,
+                        -0.1256439232087868,
+                        0.9903482840907716
+                    ]
+                ],
+                "center": [
+                    -0.018557103465989118,
+                    -0.27402746226850269,
+                    -0.4417934724782088
+                ]
+            }
+        },
+        {
+            "key": 44,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970492853300582,
+                        -0.057101831857357499,
+                        0.05130402928965878
+                    ],
+                    [
+                        0.0501007696979435,
+                        0.9904196944149375,
+                        0.128680774751691
+                    ],
+                    [
+                        -0.05816042897446442,
+                        -0.12573070314587399,
+                        0.9903580942204443
+                    ]
+                ],
+                "center": [
+                    -0.020953931398203286,
+                    -0.26926131846838699,
+                    -0.4761645526086317
+                ]
+            }
+        },
+        {
+            "key": 45,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970534791399577,
+                        -0.057605734903122127,
+                        0.050655098866522859
+                    ],
+                    [
+                        0.05065524744597118,
+                        0.9903290336683863,
+                        0.1291605627876696
+                    ],
+                    [
+                        -0.057605604250744717,
+                        -0.12621404192763709,
+                        0.9903290412682015
+                    ]
+                ],
+                "center": [
+                    -0.023238244427413059,
+                    -0.26456659503715837,
+                    -0.5101925723410372
+                ]
+            }
+        },
+        {
+            "key": 46,
+            "value": {
+                "rotation": [
+                    [
+                        0.997021409673675,
+                        -0.05860794864430578,
+                        0.05013399054558094
+                    ],
+                    [
+                        0.05168712623127444,
+                        0.9902089539635921,
+                        0.12967138648245053
+                    ],
+                    [
+                        -0.05724290029575969,
+                        -0.12669386664726579,
+                        0.99028880359201
+                    ]
+                ],
+                "center": [
+                    -0.025786191728129065,
+                    -0.2597514527426226,
+                    -0.5441057743821628
+                ]
+            }
+        },
+        {
+            "key": 47,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970137914536739,
+                        -0.05897092460363513,
+                        0.049859098493280028
+                    ],
+                    [
+                        0.0520926977280356,
+                        0.9902107757406007,
+                        0.1294950595606391
+                    ],
+                    [
+                        -0.0570074599906515,
+                        -0.12651106536026933,
+                        0.9903257544095397
+                    ]
+                ],
+                "center": [
+                    -0.028274204451971767,
+                    -0.2548601969303282,
+                    -0.5781139708950159
+                ]
+            }
+        },
+        {
+            "key": 48,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970608790784221,
+                        -0.058537993848526117,
+                        0.04942576946850763
+                    ],
+                    [
+                        0.05169999626151145,
+                        0.9901907164794035,
+                        0.1298054520602483
+                    ],
+                    [
+                        -0.05653948883677535,
+                        -0.12686862604361896,
+                        0.9903068402913718
+                    ]
+                ],
+                "center": [
+                    -0.031215760036752153,
+                    -0.2501434317233164,
+                    -0.6124088157847979
+                ]
+            }
+        },
+        {
+            "key": 49,
+            "value": {
+                "rotation": [
+                    [
+                        0.9970805782337879,
+                        -0.05847472547227999,
+                        0.04910220962356588
+                    ],
+                    [
+                        0.05173598768224304,
+                        0.9903215359529329,
+                        0.12878914164775893
+                    ],
+                    [
+                        -0.05615788535475596,
+                        -0.12587280051212497,
+                        0.9904556173820798
+                    ]
+                ],
+                "center": [
+                    -0.03421889470459872,
+                    -0.24539187497574656,
+                    -0.6456228558598832
+                ]
+            }
+        }
+    ],
+    "structure": [],
+    "control_points": []
+}

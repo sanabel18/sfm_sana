@@ -1,0 +1,83 @@
+meta: OBJECT_IMAGE_V0
+
+parent_dir: 'FILLED BY SUPER PROJECT (super_config_source)'
+name: 'FILLED BY SUPER PROJECT (super_config_source)'
+
+preproc_config_template:
+    project:
+        type: 'PreprocProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        pipeline: 
+        - 'PreprocessReconTask'
+        - 'InitReconLocTask'
+
+    preprocess_recon_config:
+        src_mode: 'no_order'
+        src_type: 'image'
+        src_config:
+            camera_model: 3
+            focal_length: 'FILLED BY SUPER PROJECT (super_config_source)'
+            src_dir: 'FILLED BY SUPER PROJECT (super_config_source)'
+        stage_list: []
+
+recon_config_template:
+    is_scene: false
+    project:
+        type: 'ReconProj'
+        project_dir: 'FILLED BY SUPER PROJECT'
+        name: 'FILLED BY SUPER PROJECT'
+        n_thread: 20
+        process_prio: 2
+        pipeline:
+        - 'SfM_INITIALIZE'
+        - 'SfM_COMPUTE_FEATURES'
+        - 'SfM_COMPUTE_MATCHES'
+        - 'SfM_INCREMENTALLY_RECONSTRUCT_V2'
+        - 'SfM_FILTER_RESULTS'
+        - 'SfM_EXPORT_RESULTS'
+        - 'MVS_DENSIFY_POINT_CLOUD'
+        - 'MVS_RECONSTRUCT_MESH'
+        - 'MVS_REFINE_MESH'
+        - 'MVS_TEXTURE_MESH'
+
+    images:
+        img_prj_dir: 'FILLED BY PREPROC'
+
+    sfm:
+        recon_alg: 'incremental'
+        camera_model: 'FILLED BY PREPROC'
+        focal_length: 'FILLED BY PREPROC'
+
+        feature_matching:
+            describer: 'AKAZE_FLOAT'
+            describer_preset: 'ULTRA'
+            geometric_model: 'f'  
+            nnd_ratio: 0.8
+            match_alg: 'FASTCASCADEHASHINGL2'
+
+        reconstruction:
+            calc_intrinsics: 'ADJUST_ALL'
+            init_img: ['', '']
+
+        filter:
+            filter_type: 'cov'
+            filter_config:
+                contamination: 0.2
+
+    mvs:
+        resol_limit: [640, 3200]
+
+        densify_pcl:
+            resol_lv: 1
+            fuse_mode: 0
+            number_views: 0
+
+        reconstruct_mesh:
+            min_point_distance: 0.0
+            free_space_support: 1
+            decimate: 1
+
+        refine_texture:
+            scales: 2
+            resol_lv: 0
+            decimate: 0.5
